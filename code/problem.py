@@ -9,8 +9,8 @@
 
 import json
 
-sense = "max"
-techniques = {
+SENSE = "max"
+TECHNIQUES = {
     "dp": {"name": "Dynamic programming (0/1 knapsack table)", "exact": True},
     "greedy": {"name": "Greedy", "exact": False},
 }
